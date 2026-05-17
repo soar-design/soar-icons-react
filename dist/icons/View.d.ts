@@ -1,31 +1,6 @@
-import * as React from "react";
-import { type IconProps } from "../Icon.js";
-declare const VARIANTS: {
-    readonly line: {
-        readonly viewBox: "0 0 48 48";
-        readonly body: import("react/jsx-runtime").JSX.Element;
-    };
-    readonly solid: {
-        readonly viewBox: "0 0 48 48";
-        readonly body: import("react/jsx-runtime").JSX.Element;
-    };
-    readonly remix: {
-        readonly viewBox: "0 0 48 48";
-        readonly body: import("react/jsx-runtime").JSX.Element;
-    };
-    readonly duo: {
-        readonly viewBox: "0 0 48 48";
-        readonly body: import("react/jsx-runtime").JSX.Element;
-    };
-    readonly flat: {
-        readonly viewBox: "0 0 48 48";
-        readonly body: import("react/jsx-runtime").JSX.Element;
-    };
-};
-export type ViewVariant = keyof typeof VARIANTS;
-export interface ViewProps extends Omit<IconProps, "viewBox" | "children"> {
-    variant?: ViewVariant;
+import { type IconProps, type IconStyle } from "../Icon.js";
+export interface ViewProps extends Omit<IconProps, "viewBox" | "children" | "style"> {
+    style?: IconStyle;
 }
-export declare const View: React.ForwardRefExoticComponent<Omit<ViewProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-export {};
+export declare const View: import("react").ForwardRefExoticComponent<Omit<ViewProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
 //# sourceMappingURL=View.d.ts.map

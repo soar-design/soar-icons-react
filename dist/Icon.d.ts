@@ -1,5 +1,5 @@
 import * as React from "react";
-export type IconVariant = "line" | "solid" | "remix" | "duo" | "flat";
+export type IconStyle = "line" | "solid" | "bulk";
 export interface IconProps extends Omit<React.SVGProps<SVGSVGElement>, "color"> {
     size?: number | string;
     color?: string;

@@ -1,0 +1,12 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { forwardRef } from "react";
+import { Icon } from "../Icon.js";
+const STYLES = {
+    "line": (_jsxs(_Fragment, { children: [_jsx("path", { d: "M13.5 17H17C19.7614 17 22 14.7614 22 12C22 9.23858 19.7614 7 17 7H13.5M10.5 17H7C4.23858 17 2 14.7614 2 12C2 9.23858 4.23858 7 7 7H10.5", stroke: "currentColor", strokeLinecap: "round", strokeWidth: "1.5" }), _jsx("path", { d: "M9 12H15", stroke: "currentColor", strokeLinecap: "round", strokeWidth: "1.5" })] })),
+    "solid": (_jsxs(_Fragment, { children: [_jsx("path", { d: "M7 8C4.79086 8 3 9.79086 3 12C3 14.2091 4.79086 16 7 16H10C10.5523 16 11 16.4477 11 17C11 17.5523 10.5523 18 10 18H7C3.68629 18 1 15.3137 1 12C1 8.68629 3.68629 6 7 6H10C10.5523 6 11 6.44772 11 7C11 7.55228 10.5523 8 10 8H7ZM13 7C13 6.44772 13.4477 6 14 6H17C20.3137 6 23 8.68629 23 12C23 15.3137 20.3137 18 17 18H14C13.4477 18 13 17.5523 13 17C13 16.4477 13.4477 16 14 16H17C19.2091 16 21 14.2091 21 12C21 9.79086 19.2091 8 17 8H14C13.4477 8 13 7.55228 13 7Z", fill: "currentColor", fillRule: "evenodd", clipRule: "evenodd" }), _jsx("path", { d: "M8 12C8 11.4477 8.44772 11 9 11H15C15.5523 11 16 11.4477 16 12C16 12.5523 15.5523 13 15 13H9C8.44772 13 8 12.5523 8 12Z", fill: "currentColor", fillRule: "evenodd", clipRule: "evenodd" })] })),
+    "bulk": (_jsxs(_Fragment, { children: [_jsx("path", { d: "M7 8C4.79086 8 3 9.79086 3 12C3 14.2091 4.79086 16 7 16H10C10.5523 16 11 16.4477 11 17C11 17.5523 10.5523 18 10 18H7C3.68629 18 1 15.3137 1 12C1 8.68629 3.68629 6 7 6H10C10.5523 6 11 6.44772 11 7C11 7.55228 10.5523 8 10 8H7ZM13 7C13 6.44772 13.4477 6 14 6H17C20.3137 6 23 8.68629 23 12C23 15.3137 20.3137 18 17 18H14C13.4477 18 13 17.5523 13 17C13 16.4477 13.4477 16 14 16H17C19.2091 16 21 14.2091 21 12C21 9.79086 19.2091 8 17 8H14C13.4477 8 13 7.55228 13 7Z", fill: "currentColor", fillRule: "evenodd", clipRule: "evenodd" }), _jsx("path", { opacity: "0.4", d: "M8 12C8 11.4477 8.44772 11 9 11H15C15.5523 11 16 11.4477 16 12C16 12.5523 15.5523 13 15 13H9C8.44772 13 8 12.5523 8 12Z", fill: "currentColor", fillRule: "evenodd", clipRule: "evenodd" })] })),
+};
+export const Link05 = forwardRef(function Link05({ style = "line", ...rest }, ref) {
+    return (_jsx(Icon, { ref: ref, viewBox: "0 0 24 24", "data-soar-icon": "link-05", "data-soar-style": style, ...rest, children: STYLES[style] }));
+});
+//# sourceMappingURL=Link05.js.map

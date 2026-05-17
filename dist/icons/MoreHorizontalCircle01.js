@@ -1,0 +1,12 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { forwardRef } from "react";
+import { Icon } from "../Icon.js";
+const STYLES = {
+    "line": (_jsxs(_Fragment, { children: [_jsx("path", { d: "M21 12C21 11.1716 20.3284 10.5 19.5 10.5C18.6716 10.5 18 11.1716 18 12C18 12.8284 18.6716 13.5 19.5 13.5C20.3284 13.5 21 12.8284 21 12Z", stroke: "currentColor", strokeWidth: "1.5" }), _jsx("path", { d: "M13.5 12C13.5 11.1716 12.8284 10.5 12 10.5C11.1716 10.5 10.5 11.1716 10.5 12C10.5 12.8284 11.1716 13.5 12 13.5C12.8284 13.5 13.5 12.8284 13.5 12Z", stroke: "currentColor", strokeWidth: "1.5" }), _jsx("path", { d: "M6 12C6 11.1716 5.32843 10.5 4.5 10.5C3.67157 10.5 3 11.1716 3 12C3 12.8284 3.67157 13.5 4.5 13.5C5.32843 13.5 6 12.8284 6 12Z", stroke: "currentColor", strokeWidth: "1.5" })] })),
+    "solid": (_jsxs(_Fragment, { children: [_jsx("path", { d: "M19.5 9.75C20.7426 9.75 21.75 10.7574 21.75 12C21.75 13.2426 20.7426 14.25 19.5 14.25C18.2574 14.25 17.25 13.2426 17.25 12C17.25 10.7574 18.2574 9.75 19.5 9.75Z", fill: "currentColor" }), _jsx("path", { d: "M12 9.75C13.2426 9.75 14.25 10.7574 14.25 12C14.25 13.2426 13.2426 14.25 12 14.25C10.7574 14.25 9.75 13.2426 9.75 12C9.75 10.7574 10.7574 9.75 12 9.75Z", fill: "currentColor" }), _jsx("path", { d: "M4.5 9.75C5.74264 9.75 6.75 10.7574 6.75 12C6.75 13.2426 5.74264 14.25 4.5 14.25C3.25736 14.25 2.25 13.2426 2.25 12C2.25 10.7574 3.25736 9.75 4.5 9.75Z", fill: "currentColor" })] })),
+    "bulk": (_jsxs(_Fragment, { children: [_jsx("path", { opacity: "0.4", d: "M19.5 9.75C20.7426 9.75 21.75 10.7574 21.75 12C21.75 13.2426 20.7426 14.25 19.5 14.25C18.2574 14.25 17.25 13.2426 17.25 12C17.25 10.7574 18.2574 9.75 19.5 9.75Z", fill: "currentColor" }), _jsx("path", { opacity: "0.4", d: "M12 9.75C13.2426 9.75 14.25 10.7574 14.25 12C14.25 13.2426 13.2426 14.25 12 14.25C10.7574 14.25 9.75 13.2426 9.75 12C9.75 10.7574 10.7574 9.75 12 9.75Z", fill: "currentColor" }), _jsx("path", { opacity: "0.4", d: "M4.5 9.75C5.74264 9.75 6.75 10.7574 6.75 12C6.75 13.2426 5.74264 14.25 4.5 14.25C3.25736 14.25 2.25 13.2426 2.25 12C2.25 10.7574 3.25736 9.75 4.5 9.75Z", fill: "currentColor" })] })),
+};
+export const MoreHorizontalCircle01 = forwardRef(function MoreHorizontalCircle01({ style = "line", ...rest }, ref) {
+    return (_jsx(Icon, { ref: ref, viewBox: "0 0 24 24", "data-soar-icon": "more-horizontal-circle-01", "data-soar-style": style, ...rest, children: STYLES[style] }));
+});
+//# sourceMappingURL=MoreHorizontalCircle01.js.map

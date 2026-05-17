@@ -1,0 +1,12 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { forwardRef } from "react";
+import { Icon } from "../Icon.js";
+const STYLES = {
+    "line": (_jsxs(_Fragment, { children: [_jsx("circle", { cx: "14", cy: "12", r: "8", stroke: "currentColor", strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: "1.5" }), _jsx("path", { d: "M2 14V10C2 7.17157 2 5.75736 2.87868 4.87868C3.75736 4 5.17157 4 8 4H14V20H8C5.17157 20 3.75736 20 2.87868 19.1213C2 18.2426 2 16.8284 2 14Z", stroke: "currentColor", strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: "1.5" })] })),
+    "solid": (_jsx(_Fragment, { children: _jsx("path", { d: "M13.9995 3.25C18.832 3.25 22.7495 7.16751 22.7495 12C22.7495 16.8325 18.832 20.75 13.9995 20.75H7.93506C6.57202 20.75 5.47281 20.7501 4.60791 20.6338C3.7078 20.5128 2.95006 20.2533 2.34814 19.6514C1.74623 19.0495 1.48674 18.2917 1.36572 17.3916C1.24946 16.5267 1.24948 15.4275 1.24951 14.0645V9.93555C1.24948 8.57249 1.24946 7.47331 1.36572 6.6084C1.48674 5.70829 1.74623 4.95055 2.34814 4.34863C2.95006 3.74672 3.7078 3.48723 4.60791 3.36621C5.47282 3.24995 6.572 3.24997 7.93506 3.25H13.9995ZM13.2495 4.78906C9.59783 5.16435 6.74951 8.25015 6.74951 12.001C6.74951 15.7518 9.59788 18.8366 13.2495 19.2119V4.78906Z", fill: "currentColor" }) })),
+    "bulk": (_jsxs(_Fragment, { children: [_jsx("path", { opacity: "0.4", d: "M22.75 12C22.75 7.16751 18.8325 3.25 14 3.25H8H7.93562C6.57253 3.24997 5.47333 3.24995 4.6084 3.36621C3.70829 3.48723 2.95055 3.74672 2.34863 4.34863C1.74672 4.95055 1.48723 5.70829 1.36621 6.6084C1.24995 7.47333 1.24997 8.57253 1.25 9.93562V10V14V14.0644C1.24997 15.4275 1.24995 16.5267 1.36621 17.3916C1.48723 18.2917 1.74672 19.0495 2.34863 19.6514C2.95055 20.2533 3.70829 20.5128 4.6084 20.6338C5.4733 20.7501 6.57247 20.75 7.93551 20.75H8H14C18.8325 20.75 22.75 16.8325 22.75 12Z", fill: "currentColor" }), _jsx("path", { d: "M6.75 12.001C6.75 8.25015 9.59832 5.16435 13.25 4.78906V19.2119C9.59837 18.8366 6.75 15.7518 6.75 12.001Z", fill: "currentColor" })] })),
+};
+export const RectangleCircle = forwardRef(function RectangleCircle({ style = "line", ...rest }, ref) {
+    return (_jsx(Icon, { ref: ref, viewBox: "0 0 24 24", "data-soar-icon": "rectangle-circle", "data-soar-style": style, ...rest, children: STYLES[style] }));
+});
+//# sourceMappingURL=RectangleCircle.js.map

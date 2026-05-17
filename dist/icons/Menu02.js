@@ -1,0 +1,12 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { forwardRef } from "react";
+import { Icon } from "../Icon.js";
+const STYLES = {
+    "line": (_jsxs(_Fragment, { children: [_jsx("path", { d: "M4 5L16 5", stroke: "currentColor", strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: "1.5" }), _jsx("path", { d: "M4 12L20 12", stroke: "currentColor", strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: "1.5" }), _jsx("path", { d: "M4 19L12 19", stroke: "currentColor", strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: "1.5" })] })),
+    "solid": (_jsxs(_Fragment, { children: [_jsx("path", { d: "M3 5C3 4.44772 3.44772 4 4 4L16 4C16.5523 4 17 4.44772 17 5C17 5.55229 16.5523 6 16 6L4 6C3.44772 6 3 5.55228 3 5Z", fill: "currentColor", fillRule: "evenodd", clipRule: "evenodd" }), _jsx("path", { d: "M3 12C3 11.4477 3.44772 11 4 11L20 11C20.5523 11 21 11.4477 21 12C21 12.5523 20.5523 13 20 13L4 13C3.44772 13 3 12.5523 3 12Z", fill: "currentColor", fillRule: "evenodd", clipRule: "evenodd" }), _jsx("path", { d: "M3 19C3 18.4477 3.44772 18 4 18L12 18C12.5523 18 13 18.4477 13 19C13 19.5523 12.5523 20 12 20L4 20C3.44772 20 3 19.5523 3 19Z", fill: "currentColor", fillRule: "evenodd", clipRule: "evenodd" })] })),
+    "bulk": (_jsxs(_Fragment, { children: [_jsx("path", { d: "M3 5C3 4.44772 3.44772 4 4 4L16 4C16.5523 4 17 4.44772 17 5C17 5.55229 16.5523 6 16 6L4 6C3.44772 6 3 5.55228 3 5Z", fill: "currentColor", fillRule: "evenodd", clipRule: "evenodd" }), _jsx("path", { opacity: "0.4", d: "M3 12C3 11.4477 3.44772 11 4 11L20 11C20.5523 11 21 11.4477 21 12C21 12.5523 20.5523 13 20 13L4 13C3.44772 13 3 12.5523 3 12Z", fill: "currentColor", fillRule: "evenodd", clipRule: "evenodd" }), _jsx("path", { d: "M3 19C3 18.4477 3.44772 18 4 18L12 18C12.5523 18 13 18.4477 13 19C13 19.5523 12.5523 20 12 20L4 20C3.44772 20 3 19.5523 3 19Z", fill: "currentColor", fillRule: "evenodd", clipRule: "evenodd" })] })),
+};
+export const Menu02 = forwardRef(function Menu02({ style = "line", ...rest }, ref) {
+    return (_jsx(Icon, { ref: ref, viewBox: "0 0 24 24", "data-soar-icon": "menu-02", "data-soar-style": style, ...rest, children: STYLES[style] }));
+});
+//# sourceMappingURL=Menu02.js.map

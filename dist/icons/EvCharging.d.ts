@@ -1,31 +1,6 @@
-import * as React from "react";
-import { type IconProps } from "../Icon.js";
-declare const VARIANTS: {
-    readonly line: {
-        readonly viewBox: "0 0 48 48";
-        readonly body: import("react/jsx-runtime").JSX.Element;
-    };
-    readonly solid: {
-        readonly viewBox: "0 0 48 48";
-        readonly body: import("react/jsx-runtime").JSX.Element;
-    };
-    readonly remix: {
-        readonly viewBox: "0 0 48 48";
-        readonly body: import("react/jsx-runtime").JSX.Element;
-    };
-    readonly duo: {
-        readonly viewBox: "0 0 48 48";
-        readonly body: import("react/jsx-runtime").JSX.Element;
-    };
-    readonly flat: {
-        readonly viewBox: "0 0 48 48";
-        readonly body: import("react/jsx-runtime").JSX.Element;
-    };
-};
-export type EvChargingVariant = keyof typeof VARIANTS;
-export interface EvChargingProps extends Omit<IconProps, "viewBox" | "children"> {
-    variant?: EvChargingVariant;
+import { type IconProps, type IconStyle } from "../Icon.js";
+export interface EvChargingProps extends Omit<IconProps, "viewBox" | "children" | "style"> {
+    style?: IconStyle;
 }
-export declare const EvCharging: React.ForwardRefExoticComponent<Omit<EvChargingProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-export {};
+export declare const EvCharging: import("react").ForwardRefExoticComponent<Omit<EvChargingProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
 //# sourceMappingURL=EvCharging.d.ts.map

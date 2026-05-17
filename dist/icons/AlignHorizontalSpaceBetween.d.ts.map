@@ -1,0 +1,1 @@
+{"version":3,"file":"AlignHorizontalSpaceBetween.d.ts","sourceRoot":"","sources":["../../src/icons/AlignHorizontalSpaceBetween.tsx"],"names":[],"mappings":"AACA,OAAO,EAAQ,KAAK,SAAS,EAAE,KAAK,SAAS,EAAE,MAAM,YAAY,CAAC;AAoBlE,MAAM,WAAW,gCAAiC,SAAQ,IAAI,CAAC,SAAS,EAAE,SAAS,GAAG,UAAU,GAAG,OAAO,CAAC;IACzG,KAAK,CAAC,EAAE,SAAS,CAAC;CACnB;AAED,eAAO,MAAM,2BAA2B,yIAStC,CAAC"}

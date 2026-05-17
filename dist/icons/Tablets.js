@@ -1,0 +1,12 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { forwardRef } from "react";
+import { Icon } from "../Icon.js";
+const STYLES = {
+    "line": (_jsxs(_Fragment, { children: [_jsx("path", { d: "M12.5 16.5H20.5M21 16.5C21 18.9853 18.9853 21 16.5 21C14.0147 21 12 18.9853 12 16.5C12 14.0147 14.0147 12 16.5 12C18.9853 12 21 14.0147 21 16.5Z", stroke: "currentColor", strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: "1.5" }), _jsx("path", { d: "M4.5 4.5L10.5 10.5M12 7.5C12 9.98528 9.98528 12 7.5 12C5.01472 12 3 9.98528 3 7.5C3 5.01472 5.01472 3 7.5 3C9.98528 3 12 5.01472 12 7.5Z", stroke: "currentColor", strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: "1.5" })] })),
+    "solid": (_jsxs(_Fragment, { children: [_jsx("path", { d: "M21.7228 17.2496C21.3588 19.7938 19.1722 21.7496 16.5275 21.7496C13.8827 21.7496 11.6962 19.7938 11.3322 17.2496H21.7228ZM16.5275 11.2496C19.1722 11.2496 21.3588 13.2055 21.7228 15.7496H11.3322C11.6962 13.2055 13.8827 11.2496 16.5275 11.2496Z", fill: "currentColor" }), _jsx("path", { d: "M10.671 11.7037C9.79459 12.3601 8.7067 12.7496 7.52747 12.7496C4.62797 12.7496 2.27747 10.3991 2.27747 7.49963C2.27747 6.32033 2.66592 5.23156 3.32239 4.3551L10.671 11.7037ZM7.52747 2.24963C10.427 2.24963 12.7775 4.60014 12.7775 7.49963C12.7775 8.67887 12.388 9.76676 11.7316 10.6432L4.38293 3.29456C5.25939 2.63809 6.34816 2.24963 7.52747 2.24963Z", fill: "currentColor" })] })),
+    "bulk": (_jsxs(_Fragment, { children: [_jsx("path", { d: "M21.7228 17.2496C21.3588 19.7938 19.1722 21.7496 16.5275 21.7496C13.8827 21.7496 11.6962 19.7938 11.3322 17.2496H21.7228ZM16.5275 11.2496C19.1722 11.2496 21.3588 13.2055 21.7228 15.7496H11.3322C11.6962 13.2055 13.8827 11.2496 16.5275 11.2496Z", fill: "currentColor" }), _jsx("path", { opacity: "0.4", d: "M10.671 11.7037C9.79459 12.3601 8.7067 12.7496 7.52747 12.7496C4.62797 12.7496 2.27747 10.3991 2.27747 7.49963C2.27747 6.32033 2.66592 5.23156 3.32239 4.3551L10.671 11.7037ZM7.52747 2.24963C10.427 2.24963 12.7775 4.60014 12.7775 7.49963C12.7775 8.67887 12.388 9.76676 11.7316 10.6432L4.38293 3.29456C5.25939 2.63809 6.34816 2.24963 7.52747 2.24963Z", fill: "currentColor" })] })),
+};
+export const Tablets = forwardRef(function Tablets({ style = "line", ...rest }, ref) {
+    return (_jsx(Icon, { ref: ref, viewBox: "0 0 24 24", "data-soar-icon": "tablets", "data-soar-style": style, ...rest, children: STYLES[style] }));
+});
+//# sourceMappingURL=Tablets.js.map

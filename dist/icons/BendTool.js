@@ -1,0 +1,12 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { forwardRef } from "react";
+import { Icon } from "../Icon.js";
+const STYLES = {
+    "line": (_jsxs(_Fragment, { children: [_jsx("circle", { cx: "19", cy: "4", r: "2", stroke: "currentColor", strokeLinecap: "round", strokeWidth: "1.5" }), _jsx("circle", { cx: "5", cy: "20", r: "2", stroke: "currentColor", strokeLinecap: "round", strokeWidth: "1.5" }), _jsx("path", { d: "M5 18C5 10 10 4 17 4", stroke: "currentColor", strokeLinecap: "round", strokeWidth: "1.5" })] })),
+    "solid": (_jsxs(_Fragment, { children: [_jsx("path", { d: "M16.25 4C16.25 2.48122 17.4812 1.25 19 1.25C20.5188 1.25 21.75 2.48122 21.75 4C21.75 5.51878 20.5188 6.75 19 6.75C17.4812 6.75 16.25 5.51878 16.25 4Z", fill: "currentColor" }), _jsx("path", { d: "M2.25 20C2.25 18.4812 3.48122 17.25 5 17.25C6.51878 17.25 7.75 18.4812 7.75 20C7.75 21.5188 6.51878 22.75 5 22.75C3.48122 22.75 2.25 21.5188 2.25 20Z", fill: "currentColor" }), _jsx("path", { d: "M17 5C10.6985 5 6 10.3937 6 18C6 18.5523 5.55228 19 5 19C4.44772 19 4 18.5523 4 18C4 9.60627 9.3015 3 17 3C17.5523 3 18 3.44772 18 4C18 4.55228 17.5523 5 17 5Z", fill: "currentColor", fillRule: "evenodd", clipRule: "evenodd" })] })),
+    "bulk": (_jsxs(_Fragment, { children: [_jsx("path", { opacity: "0.4", d: "M17 5C10.6985 5 6 10.3937 6 18C6 18.5523 5.55228 19 5 19C4.44772 19 4 18.5523 4 18C4 9.60627 9.3015 3 17 3C17.5523 3 18 3.44772 18 4C18 4.55228 17.5523 5 17 5Z", fill: "currentColor", fillRule: "evenodd", clipRule: "evenodd" }), _jsx("path", { d: "M16.25 4C16.25 2.48122 17.4812 1.25 19 1.25C20.5188 1.25 21.75 2.48122 21.75 4C21.75 5.51878 20.5188 6.75 19 6.75C17.4812 6.75 16.25 5.51878 16.25 4Z", fill: "currentColor" }), _jsx("path", { d: "M2.25 20C2.25 18.4812 3.48122 17.25 5 17.25C6.51878 17.25 7.75 18.4812 7.75 20C7.75 21.5188 6.51878 22.75 5 22.75C3.48122 22.75 2.25 21.5188 2.25 20Z", fill: "currentColor" })] })),
+};
+export const BendTool = forwardRef(function BendTool({ style = "line", ...rest }, ref) {
+    return (_jsx(Icon, { ref: ref, viewBox: "0 0 24 24", "data-soar-icon": "bend-tool", "data-soar-style": style, ...rest, children: STYLES[style] }));
+});
+//# sourceMappingURL=BendTool.js.map

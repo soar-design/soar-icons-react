@@ -1,31 +1,6 @@
-import * as React from "react";
-import { type IconProps } from "../Icon.js";
-declare const VARIANTS: {
-    readonly line: {
-        readonly viewBox: "0 0 48 48";
-        readonly body: import("react/jsx-runtime").JSX.Element;
-    };
-    readonly solid: {
-        readonly viewBox: "0 0 48 48";
-        readonly body: import("react/jsx-runtime").JSX.Element;
-    };
-    readonly remix: {
-        readonly viewBox: "0 0 48 48";
-        readonly body: import("react/jsx-runtime").JSX.Element;
-    };
-    readonly duo: {
-        readonly viewBox: "0 0 48 48";
-        readonly body: import("react/jsx-runtime").JSX.Element;
-    };
-    readonly flat: {
-        readonly viewBox: "0 0 48 48";
-        readonly body: import("react/jsx-runtime").JSX.Element;
-    };
-};
-export type RefrigeratorVariant = keyof typeof VARIANTS;
-export interface RefrigeratorProps extends Omit<IconProps, "viewBox" | "children"> {
-    variant?: RefrigeratorVariant;
+import { type IconProps, type IconStyle } from "../Icon.js";
+export interface RefrigeratorProps extends Omit<IconProps, "viewBox" | "children" | "style"> {
+    style?: IconStyle;
 }
-export declare const Refrigerator: React.ForwardRefExoticComponent<Omit<RefrigeratorProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-export {};
+export declare const Refrigerator: import("react").ForwardRefExoticComponent<Omit<RefrigeratorProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
 //# sourceMappingURL=Refrigerator.d.ts.map

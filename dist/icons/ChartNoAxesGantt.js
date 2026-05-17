@@ -1,0 +1,12 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { forwardRef } from "react";
+import { Icon } from "../Icon.js";
+const STYLES = {
+    "line": (_jsxs(_Fragment, { children: [_jsx("path", { d: "M7 5H19", stroke: "currentColor", strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: "1.5" }), _jsx("path", { d: "M4 12H14", stroke: "currentColor", strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: "1.5" }), _jsx("path", { d: "M12 19H20", stroke: "currentColor", strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: "1.5" })] })),
+    "solid": (_jsxs(_Fragment, { children: [_jsx("path", { d: "M18.9996 4C19.5519 4 19.9996 4.44772 19.9996 5C19.9996 5.55228 19.5519 6 18.9996 6H6.99963C6.44735 6 5.99963 5.55228 5.99963 5C5.99963 4.44772 6.44735 4 6.99963 4H18.9996Z", fill: "currentColor" }), _jsx("path", { d: "M13.9996 11C14.5519 11 14.9996 11.4477 14.9996 12C14.9996 12.5523 14.5519 13 13.9996 13H3.99963C3.44735 13 2.99963 12.5523 2.99963 12C2.99963 11.4477 3.44735 11 3.99963 11H13.9996Z", fill: "currentColor" }), _jsx("path", { d: "M19.9996 18C20.5519 18 20.9996 18.4477 20.9996 19C20.9996 19.5523 20.5519 20 19.9996 20H11.9996C11.4473 20 10.9996 19.5523 10.9996 19C10.9996 18.4477 11.4473 18 11.9996 18H19.9996Z", fill: "currentColor" })] })),
+    "bulk": (_jsxs(_Fragment, { children: [_jsx("path", { opacity: "0.4", d: "M19 4C19.5523 4 20 4.44772 20 5C20 5.55228 19.5523 6 19 6H7C6.44772 6 6 5.55228 6 5C6 4.44772 6.44772 4 7 4H19Z", fill: "currentColor" }), _jsx("path", { d: "M14 11C14.5523 11 15 11.4477 15 12C15 12.5523 14.5523 13 14 13H4C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11H14Z", fill: "currentColor" }), _jsx("path", { opacity: "0.4", d: "M20 18C20.5523 18 21 18.4477 21 19C21 19.5523 20.5523 20 20 20H12C11.4477 20 11 19.5523 11 19C11 18.4477 11.4477 18 12 18H20Z", fill: "currentColor" })] })),
+};
+export const ChartNoAxesGantt = forwardRef(function ChartNoAxesGantt({ style = "line", ...rest }, ref) {
+    return (_jsx(Icon, { ref: ref, viewBox: "0 0 24 24", "data-soar-icon": "chart-no-axes-gantt", "data-soar-style": style, ...rest, children: STYLES[style] }));
+});
+//# sourceMappingURL=ChartNoAxesGantt.js.map

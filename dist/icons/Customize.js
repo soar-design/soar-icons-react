@@ -1,0 +1,12 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { forwardRef } from "react";
+import { Icon } from "../Icon.js";
+const STYLES = {
+    "line": (_jsxs(_Fragment, { children: [_jsx("path", { d: "M21 17.5C21 19.433 19.433 21 17.5 21C15.567 21 14 19.433 14 17.5C14 15.567 15.567 14 17.5 14C19.433 14 21 15.567 21 17.5Z", stroke: "currentColor", strokeWidth: "1.5" }), _jsx("path", { d: "M17.5 14H6.5C4.567 14 3 15.567 3 17.5C3 19.433 4.567 21 6.5 21H17.5C19.433 21 21 19.433 21 17.5C21 15.567 19.433 14 17.5 14Z", stroke: "currentColor", strokeWidth: "1.5" }), _jsx("path", { d: "M3 6.5C3 8.433 4.567 10 6.5 10C8.433 10 10 8.433 10 6.5C10 4.567 8.433 3 6.5 3C4.567 3 3 4.567 3 6.5Z", stroke: "currentColor", strokeWidth: "1.5" }), _jsx("path", { d: "M6.5 3H17.5C19.433 3 21 4.567 21 6.5C21 8.433 19.433 10 17.5 10H6.5C4.567 10 3 8.433 3 6.5C3 4.567 4.567 3 6.5 3Z", stroke: "currentColor", strokeWidth: "1.5" })] })),
+    "solid": (_jsxs(_Fragment, { children: [_jsx("path", { d: "M6.5 2.25C4.15279 2.25 2.25 4.15279 2.25 6.5C2.25 8.84721 4.15279 10.75 6.5 10.75L17.5 10.75C19.8472 10.75 21.75 8.84721 21.75 6.5C21.75 4.15279 19.8472 2.25 17.5 2.25L6.5 2.25ZM6.5 9C7.88071 9 9 7.88071 9 6.5C9 5.11929 7.88071 4 6.5 4C5.11928 4 4 5.11929 4 6.5C4 7.88071 5.11928 9 6.5 9Z", fill: "currentColor", fillRule: "evenodd", clipRule: "evenodd" }), _jsx("path", { d: "M6.5 13.25C4.15279 13.25 2.25 15.1528 2.25 17.5C2.25 19.8472 4.15279 21.75 6.5 21.75L17.5 21.75C19.8472 21.75 21.75 19.8472 21.75 17.5C21.75 15.1528 19.8472 13.25 17.5 13.25L6.5 13.25ZM17.5 20C18.8807 20 20 18.8807 20 17.5C20 16.1193 18.8807 15 17.5 15C16.1193 15 15 16.1193 15 17.5C15 18.8807 16.1193 20 17.5 20Z", fill: "currentColor", fillRule: "evenodd", clipRule: "evenodd" })] })),
+    "bulk": (_jsxs(_Fragment, { children: [_jsx("rect", { opacity: "0.4", x: "2.25", y: "2.25", width: "19.5", height: "8.5", rx: "4.25", fill: "currentColor" }), _jsx("circle", { cx: "6.5", cy: "6.5", r: "2.5", fill: "currentColor" }), _jsx("rect", { opacity: "0.4", x: "2.25", y: "13.25", width: "19.5", height: "8.5", rx: "4.25", fill: "currentColor" }), _jsx("circle", { cx: "17.5", cy: "17.5", r: "2.5", fill: "currentColor" })] })),
+};
+export const Customize = forwardRef(function Customize({ style = "line", ...rest }, ref) {
+    return (_jsx(Icon, { ref: ref, viewBox: "0 0 24 24", "data-soar-icon": "customize", "data-soar-style": style, ...rest, children: STYLES[style] }));
+});
+//# sourceMappingURL=Customize.js.map

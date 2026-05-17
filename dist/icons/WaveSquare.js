@@ -1,0 +1,12 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { forwardRef } from "react";
+import { Icon } from "../Icon.js";
+const STYLES = {
+    "line": (_jsx(_Fragment, { children: _jsx("path", { d: "M3 12H7C7.55228 12 8 11.5523 8 11V6C8 5.44772 8.44772 5 9 5H11C11.5523 5 12 5.44772 12 6V18C12 18.5523 12.4477 19 13 19L14.9996 19C15.5519 19 15.9996 18.5523 15.9996 18L15.9996 13C15.9996 12.4477 16.4473 12 16.9996 12H20.9996", stroke: "currentColor", strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: "1.5" }) })),
+    "solid": (_jsx(_Fragment, { children: _jsx("path", { d: "M7 6C7 4.89543 7.89543 4 9 4H11C12.1046 4 13 4.89543 13 6V18L14.9996 18L14.9996 13C14.9996 11.8954 15.8951 11 16.9996 11H20.9996C21.5519 11 21.9996 11.4477 21.9996 12C21.9996 12.5523 21.5519 13 20.9996 13H16.9996L16.9996 18C16.9996 19.1046 16.1042 20 14.9996 20L13 20C11.8954 20 11 19.1046 11 18V6H9V11C9 12.1046 8.10457 13 7 13H3C2.44772 13 2 12.5523 2 12C2 11.4477 2.44772 11 3 11H7V6Z", fill: "currentColor", fillRule: "evenodd", clipRule: "evenodd" }) })),
+    "bulk": (_jsxs(_Fragment, { children: [_jsx("path", { opacity: "0.4", d: "M7 6C7 4.89543 7.89543 4 9 4H11C12.1046 4 13 4.89543 13 6V18L14.9996 18L14.9996 13C14.9996 11.8954 15.8951 11 16.9996 11H20.9996C21.5519 11 21.9996 11.4477 21.9996 12C21.9996 12.5523 21.5519 13 20.9996 13H16.9996L16.9996 18C16.9996 19.1046 16.1042 20 14.9996 20L13 20C11.8954 20 11 19.1046 11 18V6H9V11C9 12.1046 8.10457 13 7 13H3C2.44772 13 2 12.5523 2 12C2 11.4477 2.44772 11 3 11H7V6Z", fill: "currentColor", fillRule: "evenodd", clipRule: "evenodd" }), _jsx("path", { d: "M13 18L14.9996 18L14.9996 13C14.9996 11.8954 15.8951 11 16.9996 11H20.9996C21.5519 11 21.9996 11.4477 21.9996 12C21.9996 12.5523 21.5519 13 20.9996 13H16.9996L16.9996 18C16.9996 19.1046 16.1042 20 14.9996 20H13C11.8954 20 11 19.1046 11 18V12H13V18Z", fill: "currentColor" })] })),
+};
+export const WaveSquare = forwardRef(function WaveSquare({ style = "line", ...rest }, ref) {
+    return (_jsx(Icon, { ref: ref, viewBox: "0 0 24 24", "data-soar-icon": "wave-square", "data-soar-style": style, ...rest, children: STYLES[style] }));
+});
+//# sourceMappingURL=WaveSquare.js.map

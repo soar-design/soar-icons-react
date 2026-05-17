@@ -1,0 +1,12 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { forwardRef } from "react";
+import { Icon } from "../Icon.js";
+const STYLES = {
+    "line": (_jsxs(_Fragment, { children: [_jsx("path", { d: "M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z", stroke: "currentColor", strokeWidth: "1.5" }), _jsx("path", { d: "M10 16V9C10 8.44772 10.4477 8 11 8H12.75C13.9926 8 15 9.00736 15 10.25C15 11.4926 13.9926 12.5 12.75 12.5H10M13 12.5L14.5 16", stroke: "currentColor", strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: "1.5" })] })),
+    "solid": (_jsx(_Fragment, { children: _jsx("path", { d: "M12 1.25C6.06294 1.25 1.25 6.06294 1.25 12C1.25 17.9371 6.06294 22.75 12 22.75C17.9371 22.75 22.75 17.9371 22.75 12C22.75 6.06294 17.9371 1.25 12 1.25ZM11 7C9.89543 7 9 7.89543 9 9V16C9 16.5523 9.44771 17 10 17C10.5523 17 11 16.5523 11 16V13.5H12.3406L13.5809 16.3939C13.7984 16.9015 14.3863 17.1367 14.8939 16.9191C15.4015 16.7016 15.6367 16.1137 15.4191 15.6061L14.339 13.0857C15.3302 12.5291 16 11.4678 16 10.25C16 8.45507 14.5449 7 12.75 7H11ZM12.75 11.5H11V9H12.75C13.4404 9 14 9.55964 14 10.25C14 10.9404 13.4404 11.5 12.75 11.5Z", fill: "currentColor", fillRule: "evenodd", clipRule: "evenodd" }) })),
+    "bulk": (_jsxs(_Fragment, { children: [_jsx("path", { opacity: "0.4", d: "M1.25 12C1.25 6.06294 6.06294 1.25 12 1.25C17.9371 1.25 22.75 6.06294 22.75 12C22.75 17.9371 17.9371 22.75 12 22.75C6.06294 22.75 1.25 17.9371 1.25 12Z", fill: "currentColor" }), _jsx("path", { d: "M9 9C9 7.89543 9.89543 7 11 7H12.75C14.5449 7 16 8.45507 16 10.25C16 11.4678 15.3302 12.5291 14.339 13.0857L15.4191 15.6061C15.6367 16.1137 15.4015 16.7016 14.8939 16.9191C14.3863 17.1367 13.7984 16.9015 13.5809 16.3939L12.3406 13.5H11V16C11 16.5523 10.5523 17 10 17C9.44772 17 9 16.5523 9 16V9ZM11 11.5H12.75C13.4404 11.5 14 10.9404 14 10.25C14 9.55964 13.4404 9 12.75 9H11V11.5Z", fill: "currentColor", fillRule: "evenodd", clipRule: "evenodd" })] })),
+};
+export const Register = forwardRef(function Register({ style = "line", ...rest }, ref) {
+    return (_jsx(Icon, { ref: ref, viewBox: "0 0 24 24", "data-soar-icon": "register", "data-soar-style": style, ...rest, children: STYLES[style] }));
+});
+//# sourceMappingURL=Register.js.map
