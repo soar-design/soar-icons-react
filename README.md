@@ -50,7 +50,7 @@ export function Example() {
 }
 ```
 
-Component names match Hugeicons one-to-one (minus the `Icon` suffix): `<AArrowDown />`, `<AccountSetting01 />`, `<Home01 />` … `<Home13 />`, `<HomeWifi />`, etc. Browse `icons/manifest.json` from the root of the repo for the full list.
+Component names are PascalCase. When several variants exist for one concept, they're numbered: `<Home01 />` through `<Home13 />`, `<Sofa01 />` through `<Sofa03 />`, etc. Browse `icons/manifest.json` from the root of the repo for the full list.
 
 ## Props
 
@@ -69,7 +69,3 @@ Component names match Hugeicons one-to-one (minus the `Icon` suffix): `<AArrowDo
 - **Size**: `"1em"` makes icons scale with the surrounding font size — set `text-base`/`text-xl`/etc. and the icon follows. Pass a number/string for fixed sizing.
 - **Bulk**: the secondary tone is derived from your single `color` at 40% opacity. You don't pass two colors.
 - **Accessibility**: pass `title` for icons that convey meaning. Without it, the SVG is `aria-hidden` (decorative).
-
-## Available icons
-
-See [`@soar-icons/core`'s manifest](../core/README.md) for the full list.

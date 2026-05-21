@@ -2276,7 +2276,6 @@ export { HouseWifi } from "./icons/HouseWifi.js";
 export { HtmlFile01 } from "./icons/HtmlFile01.js";
 export { HtmlFile02 } from "./icons/HtmlFile02.js";
 export { HtmlFive } from "./icons/HtmlFive.js";
-export { Hugeicons } from "./icons/Hugeicons.js";
 export { Humidity } from "./icons/Humidity.js";
 export { Hut } from "./icons/Hut.js";
 export { HydroPower } from "./icons/HydroPower.js";

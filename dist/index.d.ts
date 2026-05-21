@@ -2276,7 +2276,6 @@ export { HouseWifi, type HouseWifiProps } from "./icons/HouseWifi.js";
 export { HtmlFile01, type HtmlFile01Props } from "./icons/HtmlFile01.js";
 export { HtmlFile02, type HtmlFile02Props } from "./icons/HtmlFile02.js";
 export { HtmlFive, type HtmlFiveProps } from "./icons/HtmlFive.js";
-export { Hugeicons, type HugeiconsProps } from "./icons/Hugeicons.js";
 export { Humidity, type HumidityProps } from "./icons/Humidity.js";
 export { Hut, type HutProps } from "./icons/Hut.js";
 export { HydroPower, type HydroPowerProps } from "./icons/HydroPower.js";
