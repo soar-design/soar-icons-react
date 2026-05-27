@@ -2,7 +2,7 @@ import { jsx as _jsx, Fragment as _Fragment } from "react/jsx-runtime";
 import { forwardRef } from "react";
 import { Icon } from "../Icon.js";
 const STYLES = {
-    "line": (_jsx(_Fragment, { children: _jsx("path", { d: "M12 4V20", stroke: "currentColor", strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: "1.714" }) })),
+    "line": (_jsx(_Fragment, { children: _jsx("path", { d: "M12 4V20", stroke: "currentColor", strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: "2.25" }) })),
     "solid": (_jsx(_Fragment, { children: _jsx("path", { d: "M11.0001 20V4C11.0001 3.44772 11.4478 3 12.0001 3C12.5524 3 13.0001 3.44772 13.0001 4V20C13.0001 20.5523 12.5524 21 12.0001 21C11.4478 21 11.0001 20.5523 11.0001 20Z", fill: "currentColor" }) })),
     "bulk": (_jsx(_Fragment, { children: _jsx("path", { d: "M11.0001 20V4C11.0001 3.44772 11.4478 3 12.0001 3C12.5524 3 13.0001 3.44772 13.0001 4V20C13.0001 20.5523 12.5524 21 12.0001 21C11.4478 21 11.0001 20.5523 11.0001 20Z", fill: "currentColor" }) })),
 };
